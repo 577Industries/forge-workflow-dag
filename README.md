@@ -1,9 +1,17 @@
-# @577-industries/workflow-dag
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-dark.svg">
+  <img alt="577 Industries" height="44" src="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-light.svg">
+</picture>
 
-[![npm version](https://img.shields.io/npm/v/@577-industries/workflow-dag)](https://www.npmjs.com/package/@577-industries/workflow-dag)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
+# forge-workflow-dag
 
-A YAML-to-DAG workflow compiler that uses Kahn's topological sort to determine execution order, detect cycles, and identify steps that can run in parallel.
+`FORGE OS` · [program overview](https://github.com/577Industries#forge-os--agent-infrastructure)
+
+**A YAML-to-DAG workflow compiler that uses Kahn's topological sort to determine execution order, detect cycles, and identify steps that can run in parallel.**
+
+[![release](https://img.shields.io/github/v/release/577Industries/forge-workflow-dag?style=flat-square)](https://github.com/577Industries/forge-workflow-dag/releases)
+[![license](https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/%40577-industries%2Fworkflow-dag?style=flat-square)](https://www.npmjs.com/package/@577-industries/workflow-dag)
 
 Implements the core algorithm described in the **"Workflow DAG Compiler"** patent (March 2026) by 577 Industries.
 
